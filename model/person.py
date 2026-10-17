@@ -1,3 +1,5 @@
+from tools.validation import GymValidator
+
 class Person:
     def __init__(self, person_id, name, age, phone, bmi):
         self.person_id = person_id
@@ -11,27 +13,21 @@ class Person:
         return self.__age
 
     def set_age(self, age):
-        if not isinstance(age, int) or age < 0 or age > 120:
-            raise ValueError("Invalid age !!!")
-        self.__age = age
+        self.__age = GymValidator.validate_age(age)
 
     # Phone
     def get_phone(self):
         return self.__phone
 
     def set_phone(self, phone):
-        if not isinstance(phone, int) or phone <= 0:
-            raise ValueError("Invalid phone !!!")
-        self.__phone = phone
+        self.__phone = GymValidator.validate_phone(phone)
 
     # BMI
     def get_bmi(self):
         return self.__bmi
 
     def set_bmi(self, bmi):
-        if not isinstance(bmi, (int, flaot)) or bmi < 10 or bmi > 60:
-            raise ValueError("Invalid bmi !!!")
-        self.__bmi = bmi
+        self.__bmi = GymValidator.validate_bmi(bmi)
 
 
     age = property(get_age, set_age)

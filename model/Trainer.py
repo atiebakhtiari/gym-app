@@ -1,6 +1,5 @@
 from model.person import Person
 
-
 class Trainer(Person):
     def __init__(self, person_id, name, age, phone, bmi, specialization):
         super().__init__(person_id, name, age, phone, bmi)

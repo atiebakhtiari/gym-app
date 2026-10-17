@@ -45,11 +45,11 @@ class_level = StringVar()
 Label(win, text="Level", bg=bg_color, fg="#2c3e50", font=("Tahoma", 9, "bold")).place(x=20, y=220)
 Entry(win, textvariable=class_level, width=16, bg=entry_bg, relief="solid", bd=1).place(x=90, y=220)
 
-# Buttons با رنگ‌های پاستلی و حالت هاور ملایم
+# Buttons
 Button(win, text="Save", width=9, bg=btn_save_bg, fg="white", font=("Tahoma", 9, "bold"), relief="flat", activebackground="#5b8274", activeforeground="white").place(x=20, y=270)
 Button(win, text="Reset", width=9, bg=btn_reset_bg, fg="white", font=("Tahoma", 9, "bold"), relief="flat", activebackground="#8b959c", activeforeground="white").place(x=95, y=270)
 
-# Table (Treeview) با هماهنگی رنگ‌های ملایم
+# Table (Treeview)
 style = ttk.Style()
 style.theme_use("clam")
 style.configure("Treeview.Heading", background="#d8e3dc", foreground="#2c3e50", font=("Tahoma", 9, "bold"), relief="flat")

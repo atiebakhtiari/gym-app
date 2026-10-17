@@ -1,3 +1,5 @@
+from tools.validation import GymValidator
+
 class Equipment:
     def __init__(self, equipment_id, name, condition):
         self.equipment_id = equipment_id
