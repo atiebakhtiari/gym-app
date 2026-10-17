@@ -30,6 +30,12 @@ class GymValidator:
         return name
 
     @staticmethod
+    def validate_equipment_family(family):
+        if not family or not isinstance(family, str):
+            raise ValueError("Equipment Family Invalid !!!")
+        return family
+
+    @staticmethod
     def validate_equipment_condition(condition):
         if not condition or not isinstance(condition, str):
             raise ValueError("Equipment Condition Invalid !!!")

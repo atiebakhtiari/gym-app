@@ -1,9 +1,10 @@
 from tools.validation import GymValidator
 
 class Person:
-    def __init__(self, person_id, name, age, phone, bmi):
+    def __init__(self, person_id, name, family, age, phone, bmi):
         self.person_id = person_id
         self.name = name
+        self.family = family
         self.age = age
         self.phone = phone
         self.bmi = bmi
@@ -14,6 +15,12 @@ class Person:
 
     def set_age(self, age):
         self.__age = GymValidator.validate_age(age)
+
+    # Family
+    def get_family(self):
+        return self.__family
+    def set_family(self, family):
+        self.__family = GymValidator.validate_family(family)
 
     # Phone
     def get_phone(self):
@@ -35,7 +42,7 @@ class Person:
     bmi = property(get_bmi, set_bmi)
 
     def to_tuple(self):
-        return (self.person_id, self.name, self.age, self.phone, self.bmi)
+        return (self.person_id, self.name, self.family, self.age, self.phone, self.bmi)
 
     def __repr__(self):
-        return f"Person(person_id={self.person_id}, name={self.name}, age={self.age}, phone={self.phone}, bmi={self.bmi})"
+        return f"Person(person_id={self.person_id}, name={self.name}, family={self.family}, age={self.age}, phone={self.phone}, bmi={self.bmi})"

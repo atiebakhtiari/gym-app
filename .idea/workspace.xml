@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b64498db-f181-4943-9b6a-95eb30593517" name="Changes" comment="Classes completed.">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/program_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Member.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/Member.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/Trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/Trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/equipment.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/equipment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/UML Diagram.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/model/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/workout_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/workout_session.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/validation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/coach_view.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/gym_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/gym_view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "atiebakhtiari"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;atiebakhtiari&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/atiebakhtiari/gym-app",
-    "accountId": "d243d020-33c0-476f-983c-c0ac8604167a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/atiebakhtiari/gym-app&quot;,
+    &quot;accountId&quot;: &quot;1d349399-05bf-43d4-82ba-57e67471c88c&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -50,28 +48,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.gym_ui.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gym_view.executor&quot;: &quot;Run&quot;,
-    &quot;Python.view.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.gym_ui.executor": "Run",
+    "Python.gym_view.executor": "Run",
+    "Python.program_test.executor": "Run",
+    "Python.view.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="gym_view" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="source" />
@@ -82,13 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="~\PycharmProjects\WelcomeScreen\.venv" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/view" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/view/gym_view.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -102,7 +99,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-6fa658e1df1a-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.369" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.428" />
+        <option value="bundled-python-sdk-80e8e15d2b92-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.428" />
       </set>
     </attachedChunks>
   </component>
@@ -115,6 +113,10 @@
       <option name="presentableId" value="Default" />
       <updated>1791815107216</updated>
       <workItem from="1791815108387" duration="4268000" />
+      <workItem from="1792247032953" duration="627000" />
+      <workItem from="1792247666296" duration="26000" />
+      <workItem from="1792247701078" duration="84000" />
+      <workItem from="1792247791717" duration="5175000" />
     </task>
     <task id="LOCAL-00001" summary="Classes completed.">
       <option name="closed" value="true" />
@@ -135,7 +137,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Classes completed." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gym_app$program_test.coverage" NAME="program_test Coverage Results" MODIFIED="1792249300708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/source$view.coverage" NAME="view Coverage Results" MODIFIED="1791819779100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gym_app$gym_view.coverage" NAME="gym_view Coverage Results" MODIFIED="1792252219760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/view" />
     <SUITE FILE_PATH="coverage/source$gym_ui.coverage" NAME="gym_ui Coverage Results" MODIFIED="1791818606762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
