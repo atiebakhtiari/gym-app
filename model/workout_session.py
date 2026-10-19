@@ -23,10 +23,10 @@ class WorkSession:
         return self.__exersize_name
 
     def set_exercise_name(self, exercise_name):
-        self.__exercise_name = GymValidator.validate_exersize_name(exersize_name)
+        self.__exercise_name = GymValidator.validate_exercise_name(exercise_name)
 
     session_id = property(get_session_id, set_session_id)
-    exersize_name = property(get_exersize_name, set_exersize_name)
+    exercise_name = property(get_exercise_name, set_exercise_name)
 
 
     def to_tuple(self):
@@ -36,7 +36,7 @@ class WorkSession:
             str(self.member),
             str(self.trainer),
             str(self.equipment),
-            self.exersize_name,
+            self.exercise_name,
             self. sets_re,
             self.duration
         )
@@ -45,5 +45,5 @@ class WorkSession:
         return (
             f"WorkoutSession(session_id={self.session_id}, member={self.member}, "
             f"trainer={self.trainer}, equipment={self.equipment}, "
-            f"exersize={self.exersize_name}, sets_reps={self.sets_reps})"
+            f"exercise={self.exercise_name}, sets_reps={self.sets_reps})"
         )

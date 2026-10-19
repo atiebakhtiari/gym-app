@@ -40,3 +40,21 @@ class GymValidator:
         if not condition or not isinstance(condition, str):
             raise ValueError("Equipment Condition Invalid !!!")
         return condition
+
+    @staticmethod
+    def validate_session_id(session_id):
+        if not isinstance(session_id, int) or session_id <= 0:
+            raise ValueError("Session ID Invalid !!!")
+        return session_id
+
+    @staticmethod
+    def validate_exercise_name(exercise_name):
+        if not exercise_name or not isinstance(exercise_name, str):
+            raise ValueError("Exercise Name Invalid !!!")
+        return exercise_name
+
+    @staticmethod
+    def validate_duration(duration):
+        if not isinstance(duration, (int, float)) or duration <= 0:
+            raise ValueError("Duration Invalid !!!")
+        return duration

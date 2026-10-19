@@ -16,6 +16,12 @@ class Person:
     def set_age(self, age):
         self.__age = GymValidator.validate_age(age)
 
+    # Name
+    def get_name(self):
+        return self.__name
+    def set_name(self, name):
+        self.__name = GymValidator.validate_name(name)
+
     # Family
     def get_family(self):
         return self.__family
@@ -38,6 +44,8 @@ class Person:
 
 
     age = property(get_age, set_age)
+    name = property(get_name, set_name)
+    family = property(get_family, set_family)
     phone = property(get_phone, set_phone)
     bmi = property(get_bmi, set_bmi)
 
