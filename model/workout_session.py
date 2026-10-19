@@ -1,14 +1,14 @@
 from tools.validation import GymValidator
 
 class WorkSession:
-    def __init__(self, session_id, session_date, duration, member, trainer, equipment, exersize_name, sets_reps):
+    def __init__(self, session_id, session_date, duration, member, trainer, equipment, exercise_name, sets_reps):
         self.session_id = session_id
         self.session_date = session_date
         self.duration = duration
         self.member = member
         self.trainer = trainer
         self.equipment = equipment
-        self.exercise_name = exersize_name
+        self.exercise_name = exercise_name
         self.sets_reps = sets_reps
 
     # Session ID
